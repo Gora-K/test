@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-E</title>
+        <style>
+            .request{
+                font-size:25px;
+                font-family:arial;
+            }
+            .pick-up,
+            .destination{
+                display:block;
+                font-size:15px;
+                padding:8px 25px;
+                margin-bottom:10px;
+                background-color: rgb(246, 242, 242);
+                border:none;
+                width:250px;
+
+            }
+            .request-button{
+                display:inline;
+                margin-top:15px;
+                background-color: black;
+                color:white;
+                padding:10px 20px;
+                border:none;
+                transition: opacity 3s,padding 0.5s;
+                cursor: pointer;
+             
+                
+                
+            }
+            .schedule-button{
+                background-color: rgb(246, 242, 242);
+                padding: 10px 20px;
+                color: black;
+                border:none;
+                cursor: pointer;
+                transition: opacity 1s, padding 0.5s;
+                
+            }
+            .request-button:hover{
+                opacity:0.8;
+                padding: 15px 25px;
+             
+                
+            }
+            .schedule-button:hover{
+                opacity:0.8;
+                padding:15px 25px;
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p class="request">Request a ride now</p>
+        <input class="pick-up" type="text" placeholder="Enter pickup location">
+        <input class="destination" type="text" placeholder="Enter destination">
+        <button class="request-button">Request now </button>
+        <Button class="schedule-button">Schedule for later</Button>
+    </body>
+</html>

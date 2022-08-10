@@ -1,0 +1,12 @@
+.grid{
+    display:grid;
+    grid-template-columns: 200px 75px;
+}
+.longer{
+    background-color:lightblue;
+    padding:8px 25px;
+}
+.shorter{
+    background-color: lightpink;
+    padding:8px 25px;
+}

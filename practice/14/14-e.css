@@ -1,0 +1,53 @@
+body{
+    padding-bottom:3000px;
+}
+div{ 
+    font-family:arial;
+}
+   
+.header{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    justify-content:space-between;
+    position:fixed;
+    left:0px;
+    right:0px;
+    align-items: center;
+}
+.profile-picture-container{
+    margin-right:15px;
+    margin-left:25px;
+}
+.profile-picture{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:30px;
+}
+.left-section{
+    display:flex;
+    align-items: center;
+    margin-left:50px;
+}
+.right-section{
+    margin-right:80px;
+}
+.add-button{
+    background-color: dodgerblue;
+    color:white;
+    border:none;
+    font-size:16px;
+    padding:8px 16px;
+    border-radius:6px;
+    font-weight:600;
+}
+.message-button{
+    border:none;
+    font-size:16px;
+    padding:8px 16px;
+    border-radius:6px;
+    font-weight:600;
+}
+
+

@@ -1,0 +1,14 @@
+.sidebar{
+    background-color: green;
+    color:white;
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    width:100px;
+    transition:width 1.5s, background-color 1.5s;
+}
+.sidebar:hover{
+    width:200px;
+    background-color: aqua;
+}

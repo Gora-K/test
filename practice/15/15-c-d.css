@@ -1,0 +1,36 @@
+body{
+    padding-bottom:3000px;
+}
+.div-1{
+    width:320px;
+    height:180px;
+    background-color: gray;
+    position:fixed;
+    right:15px;
+    bottom:20px;
+}
+.button-x{
+    background-color: black;
+    color:white;
+    border-radius: 35px;
+    padding:4px 8px;
+    position:absolute;
+    left: -5px;
+    top:-5px;
+    position:absolute;
+    cursor: pointer;
+    transition: padding 0.7s,opacity 1s;
+}
+.button-x:hover{
+    padding:6px 10px;
+    opacity: 0.9;
+}
+.time-stamp{
+    color:white;
+    background-color: black;
+    position:absolute;
+    right: 8px;
+    bottom:8px;
+    font-family:arial;
+    padding:3px 4px;
+}

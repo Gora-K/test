@@ -1,0 +1,41 @@
+.cat-one{
+  width:200px;
+  height:200px;
+  object-fit: cover;
+  margin-bottom:0px;
+}
+.general-info{
+  margin-left:7px;
+  font-family:arial;
+  margin-top:10px;
+}
+.Name{
+  font-size:25px;
+  font-weight:bold;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.mutual-friends{
+  margin-top:10px;
+  margin-bottom:0px;
+  color:gray;
+  font-size:20px;
+}
+.add-friend-button{
+  margin-top:15px;
+  background-color:rgb(24, 119, 242);
+  color:white;
+  border:none;
+  font-size:16px;
+  padding:10px 20px;
+  border-radius:4px;
+  margin-left:7px;
+  margin-bottom:15px;
+  cursor: pointer;
+}
+.entire-profile{
+  display:inline-block;
+  margin-left:20px;
+  margin-top:25px;
+  box-shadow: 0 0 7px rgba(1, 1, 1, 0.7);
+}

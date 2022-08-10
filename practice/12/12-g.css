@@ -1,0 +1,39 @@
+.row{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+.profile-picture{
+    height:80px;
+    width:80px;
+    object-fit:cover;
+    border-radius:40px;
+    margin-right:15px;
+}
+.info{
+    width:200px;
+    line-height:10px;
+}
+.name{
+    font-size:17px;
+    font-weight:bold;
+    font-family:arial;
+}
+.handle,
+.category{
+    font-size:14px;
+    color:gray;
+    font-family:arial;
+}
+.follow-button{
+    background-color: rgb(29, 155, 240);
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:10px 25px;
+    font-size:15px;
+    font-weight: bold;
+    cursor:pointer;
+}
